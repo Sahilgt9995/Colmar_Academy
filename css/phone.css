@@ -1,0 +1,121 @@
+@media only screen and (max-width: 580px){
+    
+    .nav_bar > .nav, .nav_bar > ul{
+        display: none;
+    }
+
+    .mobile_nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 64px;
+        background-color: #fff;
+    }
+
+    .infosection1{
+        flex-direction: column;
+    }
+
+    .infosection1 img{
+        padding: 0px;
+        width: 100%;
+    }
+
+    .infosection2 > button{
+        width: 100%;
+        font-size: 100%;
+        margin-bottom: 32px;
+        margin-top: 24px;
+    }
+
+    .infosection2 > h1{
+        font-size: 2.3rem;
+        margin-bottom: 32px;
+        margin-top: 32px;
+        text-decoration: solid;
+    }
+    
+    .infosection2 > h4{
+        font-size: 1.2rem;
+        color: rgb(96 96 96);
+    }
+
+    .keepPracticing{
+        display: none;
+    }
+
+    .infosection3{
+        grid-template-columns: 1fr;
+    }
+
+    .treePosts > *{
+            display: flex;
+            flex-direction: column;
+            font-size: 120%;
+    }
+
+    .orientation-left-desktop, .campus-left-desktop, .guest-left-desktop {
+        display: none;
+    }
+
+    .post img{
+        width: 100%;
+        height: auto;
+    }
+
+    .orientation-left-mobile, .campus-left-mobile, .guest-left-mobile {
+        display: inline;
+    }
+
+    .startLearning{
+        background-color: #fff;
+    }
+
+    .courses{
+        display: none;
+    }
+
+    .coursemobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coursemobile > *{
+        background-color: #c7c7c7;
+        font-size: 120%;
+        margin: 1%;
+        height: 4rem;
+        color: rgb(52, 52, 52);
+        text-decoration: none;
+    }
+
+    .coursemobile h4{
+        margin: 12px;
+        font-weight: normal;
+        text-align: center;
+        
+    }
+
+    .urban-info{
+        display: none;
+    }
+
+    .other-thesis-container{
+        display: none;
+    }
+
+    .thesis-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .urban-container{
+        width: 100%;
+        padding: 0px;
+    }
+
+
+
+
+
+}
